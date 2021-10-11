@@ -13,7 +13,7 @@ int main()
 	cin >> n;
 	cout << "h = ";
 	cin >> h;
-	for (x = a; x <= b+h/2; x += h)
+	for (x = a; x <= b; x += h)
 	{
 		Sx = 0;
 		for (k = 0; k <= n; k++)
